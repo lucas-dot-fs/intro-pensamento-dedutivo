@@ -14,5 +14,3 @@ window.addEventListener("resize", e => {
         toggle.button.classList.remove("open-button")
     }
 })
-
-

@@ -1,0 +1,33 @@
+{
+  "name": "intro-pensamento-dedutivo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas-dot-fs/intro-pensamento-dedutivo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucas-dot-fs/intro-pensamento-dedutivo/issues"
+  },
+  "homepage": "https://github.com/lucas-dot-fs/intro-pensamento-dedutivo#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp-concat": "^2.6.1",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "sass": "^1.53.0",
+    "typescript": "^4.7.4"
+  }
+}
