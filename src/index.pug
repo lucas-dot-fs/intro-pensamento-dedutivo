@@ -1,4 +1,4 @@
-extends layout
+extends includes/layout
 block css 
 		link(rel="stylesheet", href="css/posts.css")
 
@@ -6,25 +6,26 @@ block content
 		.post 
 				h1.titulo Como a geometria chegou a Grécia
 				h5.data 19 de junho de 2022
-				p Começo esse post com a seguinte pergunta: O que é a geometria? Ao entrevistar um aluno do Ensino Médio, ele respondeu: “A parte da matemática que estuda o tamanho e volume das figuras. Para sermos mais rigorosos busquemos a definição nos dicionários, que pode ser: “Parte da matemática que estuda rigorosamente o espaço e as formas que nele podem estar" .  Apesar das diferenças entre as definições é notável que o aluno entende algo sobre geometria, o que não é surpresa, pois ela faz parte do currículo escolar das escolas brasileiras. Porém uma coisa o nosso entrevistado não soube responder corretamente: De onde vem a geometria?O primeiro lugar em sua mente foi a Grécia, mas está errado. Então de onde vem? Porque pensamos na Grécia como lugar de origem? Como chegou lá?Se leu o título sabe que é essa pergunta que iremos responder.
+				h5.data Escrito por Lucas Fernandes Silva
+				p Começo esse post com a seguinte pergunta: O que é a geometria? A definição de acordo com o dicionário é: “Parte da matemática que estuda rigorosamente o espaço e as formas que nele podem estar" . Se quem está lendo passou pela escola deve se lembrar do cálculo de áreas, volumes, além de diversos matemáticos gregos a quem se atribuíam fórmulas tediantes . Uma pergunta interessante é: Onde surgiu a geometria? Será que foi na Grécia? Já adianto que não. Então como será que ela chegou lá?
 				h2.subtitulo ORIGEM
-				p O exato momento de quando a geometria surgiu é um mistério, diversos povos ao longo da história tiveram problemas que para resolvê-los foram usados conhecimentos geométricos. Para nós o importante é saber como esses conhecimentos chegaram à Grécia, lugar onde esse conhecimento se desenvolveu. Para essa história tudo começa com o povo que construiu as pirâmides?
+				p O exato momento em que a geometria surgiu é um mistério, diversos povos ao longo da história tiveram problemas que para resolvê-los foi necessário conhecimentos geométricos. Entretanto, para nós o importante é saber como esses conhecimentos chegaram à Grécia, lugar onde esse conhecimento se desenvolveu. Para essa história tudo começa com o povo que construiu as pirâmides? 
 				img.img(src="assets/meme.png", alt="meme", srcset="")
-				p Os egípcios possuíam conhecimentos geométricos, devido a necessidades como o cálculo de áreas para cobrança de impostos. Agora como esse conhecimento chegou à Grécia? Tudo começou com Tales de Mileto.  Existem histórias sobre isso, em o Sumário de Proclo ou em Vida dos Filósofos Ilustres. Ambos contam que Tales foi à Grécia e lá adquiriu conhecimentos que seriam passados para os que vieram depois dele.
+				p Os egípcios possuíam conhecimentos geométricos, devido a diversas necessidades como a do cálculo de áreas para cobrança de impostos. Agora como esse conhecimento chegou à Grécia? Tudo começou com Tales de Mileto.  Existem histórias sobre isso, em o Sumário de Proclo ou em Vida dos Filósofos Ilustres. Ambos contam que Tales foi ao Egito e lá adquiriu conhecimentos que seriam passados para os que vieram depois dele.
 				h2.subtitulo IGUALDADE DAS SOMBRAS
-				p O que Tales fez foi utilizar a semelhança de triângulos retângulos. Porém devido a carência de fontes, registros históricos da época é incerto como Tales chegou a essa conclusão, porém uma hipótese é a partir da igualdade das sombras. Se tivermos um triângulo retângulo ABC que representa a sombra que possui o mesmo tamanho de Tales e um triângulo retângulo ADE que representa a altura da pirâmide. 
+				p O que Tales descobriu foi a semelhança de triângulos retângulos ABC ADE. Porém devido a carência de fontes, registros históricos da época é incerto como Tales chegou a essa conclusão, porém uma hipótese é a partir da igualdade das sombras. Se tivermos um triângulo retângulo ABC que representa a sombra de Tales e um triângulo retângulo ADE que representa a altura da pirâmide.
 				img.img(src="assets/p1.png", alt="p1", srcset="")
-				p Para descobrir a altura basta preenchermos o triângulo ADE com várias cópias triângulos ABC. Assim é possível concluir que a altura da pirâmide pode ser calculada a partir do comprimento de sua sombra, que foi definido em termos da sombra de Tales, ou triângulo ABC.
+				p É possível descobrir a altura da pirâmide, basta preenchermos o triângulo ADE com várias cópias do triângulo ABC. Assim é possível concluir que a altura da pirâmide pode ser calculada a partir do comprimento de sua sombra, que foi definido em termos da sombra de Tales, ou triângulo ABC.
 				img.img(src="assets/p2.png", alt="p2", srcset="")
 				p Lembrando que a sombra de Tales deve ter comprimento igual a sua altura.
-				h2.subtitulo PITAGURAS 
+				h2.subtitulo PITÁGORAS 
 				p Depois de Tales tivemos outros gregos interessados na matemática, um deles foi Pitágoras. Em o sumário de Proclo é dito que:
 				p “Pitágoras transformou o estudo da matemática em uma forma de educação liberal, examinando seus princípios desde o começo, explorando seus teoremas de maneira puramente imaterial e intelectual”
 				p Há muita imprecisão a certa do que Pitágoras realmente descobriu, pois seus seguidores atribuem a ele muitos feitos. Uma curiosidade é que foi descoberto uma tabuleta de argila, escrita por alguém há cerca de 1000 anos antes de Pitágoras.
 				img.img(src="assets/ybc.png", alt="p2", srcset="", style="border-color: transparent !important;")
-				p Nela está escrito, de acordo com umas das interpretações, descreve um quadrado de lado ½ e sua diagonal:
+				p Nela está escrito, de acordo com umas das interpretações, um quadrado de lado ½ e sua diagonal:
 				img.img(src="assets/1.svg", alt="", style="border: 0")
-				p O interessante é que esse resultado é um otima aproximação, se a interpretação a cerca dessa tabuleta for verdade seria uma evidência de que Pitágoras não descobriu que a diagonal de um quadrado de lado ½ é
+				p O interessante é que esse resultado é um ótima aproximação, se a interpretação acerca dessa tabuleta for verdade seria uma evidência de que Pitágoras não descobriu que a diagonal de um quadrado de lado ½ é
 				img.img(src="assets/2.svg", alt="p2", srcset="", style="border: 0")
 				p Para essa e mais curiosidades acerca da geometria, recomendo fortemente a leitura da apostila do professor Collier, que está em referências.
 				

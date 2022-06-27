@@ -1,8 +1,10 @@
 footer {
+  max-width: calc(100vw - 40px);
   background: #fff;
   padding: 20px;
   font-size: 1em;
   font-weight: bold;
   border-radius: 5px;
   margin: 100px auto;
+  text-align: center;
 }
