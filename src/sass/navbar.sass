@@ -1,7 +1,7 @@
 .top-bar
     width: 100%
     position: relative
-    background: #f5f5f5
+    z-index:  3
     .container
         width: 100%
         display: flex
@@ -15,12 +15,17 @@
                 justify-content: space-between
                 margin: 0 auto
                 height:  120px
+            
+            .menu
+                li
+                    a
+                        font-size: 20px
     .menu
-        display: flex
         justify-content: center
         align-items: center
         list-style-type: none
         display: none
+        z-index: 4 !important
         @media screen and ( min-width: 960px  )
             display: flex
             margin: 0
@@ -32,7 +37,7 @@
             .link
                 text-decoration: none
                 
-                color: #333
+                color: #fff
                 font-weight: bolder
                 &:hover
                     color: #333
@@ -53,7 +58,7 @@
         &, &::after,&::before 
             width: 30px
             height: 4px
-            background-color: #333
+            background-color: #ffffff
             display: block
             content: ''
             border-radius: 5px
@@ -87,8 +92,8 @@
     left: 0
     width: 80vw !important
     height: 100vh !important
-    background: #333
-    z-index: 9999
+    background: #ffffff
+    z-index: 4 !important
 
     .menu-item
         margin: 5px 0 0 0
@@ -104,7 +109,7 @@
             width: 100% !important
             align-items: center !important
             margin-left: 15px
-            color: #fff !important
+            color: #4e54c8 !important
         &::after
             margin-left: 15px
             position: absolute !important
@@ -114,7 +119,7 @@
             top: 50% !important
             left: 0 !important
             content: ''
-            background: #fff
+            background: #4e54c8
             transform: translate(0, -50%)
 
 @media (min-width: 960px)
